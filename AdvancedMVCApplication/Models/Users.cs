@@ -9,6 +9,7 @@ namespace AdvancedMVCApplication.Models
     {
         public List<AdvancedMVCApplication.Models.UserModels> UserList = new List<AdvancedMVCApplication.Models.UserModels>();
 
+
         //action to get user details 
         public UserModels GetUser(int id)
         {
